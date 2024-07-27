@@ -1,0 +1,633 @@
+*{
+    margin: 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    /* border: 1px solid red !important ; */
+    font-family: "Wittgenstein", serif
+    
+}
+.main-container{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url("https://i.pinimg.com/originals/54/f6/59/54f65958cebd0f62f98fa0443e1e3bec.jpg");
+    size: 100%;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+    .logo{
+    width: 150px;
+    margin-left: 0px;
+}
+nav{
+    /* position: fixed;  */
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+     /* background-color: rgb(66, 229, 248); */
+    width: 100%;
+    height: 60px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.icons{
+  font-size: 1.5rem;
+  position: absolute;
+  right: 5%;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+.contents{
+    margin-top: 10px;
+}
+.list-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+    width: 200px;
+    height: 100px;
+}
+.links{
+    text-decoration: none;
+    /* font-weight: 00; */
+    font-family: "Wittgenstein", serif;
+    font-size: 20px;
+    color: rgb(13, 13, 13);  
+}
+.links:hover{
+    text-decoration: underline;
+}
+
+.search-log input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+  }
+  .search-log button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+   .search-log button:hover {
+    background: #ccc;
+  }
+  .main-head{
+    text-align: center;
+    font-size: 110px;
+    color: rgb(150, 227, 246);
+    margin: 30px;
+    font-weight: 600;
+    /* font-family: "Sevillana", cursive; */
+
+
+  }
+  .main-para{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+  }
+.user-icon{
+    color: black;
+}
+.user{
+    text-decoration: none;
+    color: black;
+    margin:0px 10px;
+}
+.u-icon{
+    width: 35px;
+    height: 35px;
+    /* background-color: #f9f6f6; */
+    text-align: center;
+    margin-right: 40px;
+    padding-left: -30px;
+    border-radius: 10px;
+}
+.login-back{
+   opacity: 0.7; 
+    
+}
+.login-head{
+    text-align: center;
+    /* background-color: aqua; */
+    color: #040ea3;
+    width: 400px;
+    font-weight: 1000;
+}
+.home-page{
+  margin-top: 100px;
+}
+.text-det{
+    border-radius: 5px;
+    border: 1px solid rgb(150, 147, 147);
+    height: 40px;
+    width: 300px;
+    color: black;
+   
+}
+.login-button{
+   background-color: blue;
+}
+.img-details{
+    width:300px;
+    height: 250px;
+}
+.places{
+    position: relative;
+    
+}
+.details{
+    position: absolute;  
+    top: 180px;  
+}
+.place-details{
+    display: none;
+}
+.place-head{
+    font-weight: 700;
+    color: #ddd;
+}
+
+.top-destiny{
+    font-size: 50px;
+    text-align: center;
+    margin: 15px;
+}
+
+.destiny-details{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:  rgb(249, 168, 133);
+}
+.destiny-place:hover .destiny-details{
+    opacity: .8;
+}
+.destiny-head{
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(246, 2, 136);
+    font-family: 'Times New Roman', Times, serif;
+}
+.destiny-view{
+    text-decoration: none;
+    color: rgb(2, 22, 122);
+}
+.recommend-head{
+    text-align: center;
+    font-size: 50px;
+}
+.card:hover{
+    box-shadow: rgba(0,0,0,0.4) 0px 2px 4px, rgba(0,0,0,0.3) 0px 7px 13px -3px, rgba(0,0,0,0.2) 0px -3px 0px inset;
+}
+.star{
+    height: 50px;
+    width: 100px;
+  }
+  .dot-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+  }
+  .dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:gray ;
+    margin: 5px  ;
+  }
+  .dot-btn{
+    text-decoration: none;
+    border: none;
+    background-color: white;
+  }
+.dot:hover{
+    background-color:rgb(65, 70, 216) ;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(97, 150, 248);
+    padding: 20px 0px;
+  
+    
+  }
+  .footer-head{
+    color: rgb(3, 44, 91);
+    font-weight: 600;
+  }
+  .foot{
+    color: white;
+  }
+  .foot-para{text-align: center;
+    margin-left: 0px;
+  }
+  .brands{
+    color: white;
+    padding: 10px 20px;
+    height: 50px;
+  }
+  .foot-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+  }
+  .footer-link{
+    text-decoration: none;
+    color: white;
+  }
+  .brands{
+   margin-left: 50px;
+    color: black;
+  }
+  /* .brands:hover{
+    color: #040ea3;
+  }
+  .brands-button{
+   text-decoration: none;
+    border: none;
+    width: 30px; 
+    background-color: white;
+
+  } */
+
+  .email-deatils{
+    width:500px;
+    height: 60px;
+    border-radius: 50px;
+    padding: 5px 10px;
+    border: 1px solid gray;
+  }
+  .subscribe{
+    margin-left: -100px;
+    width: 90px;
+    height: 40px ;
+    border-radius: 10px;
+    border: none;
+    color: rgb(246, 246, 252);
+    background-color: #040ea3;
+  }
+  .social-brands{
+    padding-left: 20px;
+    color: white;
+  }
+  @media (max-width : 1200px) and (min-width : 992px){
+    .dot-div{
+      margin-top: 200px;
+    }
+  }
+@media (max-width : 992px) and (min-width : 768px){
+    nav{
+        width:100%;
+        height: 100px;
+ 
+     }
+     .logo{
+        width: 200px;
+        height: 200px;
+        margin-left: -20px;
+}
+.list-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+    width: 150px;
+    height: 150px;
+}
+.main-head{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(118, 222, 254);
+    margin: 30px;
+    font-weight: 600;
+    /* font-family: "Sevillana", cursive; */
+
+
+  }
+  .main-para{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+  }
+  .menu{
+    /* background-color: rgb(225, 232, 21); */
+    margin-left: -100px;
+    margin-top: -10px;
+}
+.search-box{
+    display: none;
+}
+.search-button{
+    display: block;
+    margin-top: 0px;
+    padding-left: -60px;
+}
+.u-icon{
+    /* background-color: rgb(252, 250, 253); */
+    margin-left: -120px;
+    margin-top: -5px;
+    text-align: center;
+    padding-top: 5px;
+}
+.destiny-details{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:  rgb(8, 148, 235);
+}
+.destiny-place:hover .destiny-details{
+    opacity: .8;
+}
+
+.card:hover{
+    box-shadow: rgba(0,0,0,0.4) 0px 2px 4px, rgba(0,0,0,0.3) 0px 7px 13px -3px, rgba(0,0,0,0.2) 0px -3px 0px inset;
+}
+.dot-div{
+  margin-top: 200px;
+}
+
+}
+@media (max-width : 768px) and (min-width : 576px){
+
+.search-log{
+  display: none;
+}
+.u-icon{
+  display: none;
+}
+.icons{
+  display: flex;
+}
+#cancel{
+  display: none;
+}
+#check:checked~.icons #menu{
+  display: none;
+}
+#check:checked~.contents ul{
+  display: block;
+  padding-top: 1rem;
+  height: 40rem;
+  
+ 
+}
+#check:checked~.icons #cancel{
+  display: block;
+}
+.contents ul{
+
+  position: absolute;
+  z-index: 10;
+  /* top: 100%; */
+  right: 0;
+  display: block;
+  background: rgb(78, 90, 254);
+  width: 35vh;
+  display: none;
+}
+.contents ul a{
+  display: block;
+  font-size: 1.8rem;
+  margin: 0.8rem 0; 
+   text-align: center;
+   color: rgb(10, 9, 9);
+}
+.main-head{
+  text-align: center;
+  font-size: 100px;
+  color: rgb(118, 222, 254);
+  margin: 30px;
+  font-weight: 600;
+  /* font-family: "Sevillana", cursive; */
+
+
+}
+.main-para{
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+}
+.box{
+  background-color: #9a9fef;
+}
+.dot-div{
+  margin-top: 200px;
+}
+}
+@media (max-width : 576px) and (min-width : 400px){
+  .search-log{
+    display: none;
+  }
+  .u-icon{
+    display: none;
+  }
+  .icons{
+    display: flex;
+  }
+  #cancel{
+    display: none;
+  }
+  #check:checked~.icons #menu{
+    display: none;
+  }
+  #check:checked~.contents ul{
+    display: block;
+    padding-top: 1rem;
+    height: 40rem;
+    
+   
+  }
+  #check:checked~.icons #cancel{
+    display: block;
+  }
+  .contents ul{
+  
+    position: absolute;
+    z-index: 10;
+    /* top: 100%; */
+    right: 0;
+    display: block;
+    background: rgb(78, 90, 254);
+    width: 35vh;
+    display: none;
+  }
+  .contents ul a{
+    display: block;
+    font-size: 1.8rem;
+    margin: 0.8rem 0; 
+     text-align: center;
+     color: rgb(10, 9, 9);
+  }
+  .main-head{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(118, 222, 254);
+    margin: 30px;
+    font-weight: 600;
+    /* font-family: "Sevillana", cursive; */
+  
+  
+  }
+  .main-para{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+  }
+  .main-container{
+    width: 113vh;
+    overflow: hidden;
+  }
+  .top-destiny{
+    text-align: center;
+    width: 110vh;
+  }
+.box{
+  width: 110vh;
+}
+.recommend-head{
+  text-align: center;
+    width: 110vh;
+}
+.dot-div{
+  width: 110vh;
+  margin-top: 200px;
+  text-align: center;
+}
+.contact-sub{
+  width: 100vh;
+}
+.email-deatils{
+  width: 80vh;
+}
+.footer{
+  width: 110vh;
+}
+}
+@media (max-width : 400px) and (min-width : 300px){
+  .search-log{
+    display: none;
+  }
+  .u-icon{
+    display: none;
+  }
+  .icons{
+    display: flex;
+  }
+  #cancel{
+    display: none;
+  }
+  #check:checked~.icons #menu{
+    display: none;
+  }
+  #check:checked~.contents ul{
+    display: block;
+    padding-top: 1rem;
+    height: 40rem;
+    
+   
+  }
+  #check:checked~.icons #cancel{
+    display: block;
+  }
+  .contents ul{
+  
+    position: absolute;
+    z-index: 10;
+    /* top: 100%; */
+    right: 0;
+    display: block;
+    background: rgb(78, 90, 254);
+    width: 35vh;
+    display: none;
+  }
+  .contents ul a{
+    display: block;
+    font-size: 1.8rem;
+    margin: 0.8rem 0; 
+     text-align: center;
+     color: rgb(10, 9, 9);
+  }
+  .main-head{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(118, 222, 254);
+    margin: 30px;
+    font-weight: 600;
+    /* font-family: "Sevillana", cursive; */
+  
+  
+  }
+  .main-para{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+  }
+  .main-container{
+    width: 113vh;
+    overflow: hidden;
+  }
+  .top-destiny{
+    text-align: center;
+    width: 110vh;
+  }
+.box{
+  width: 110vh;
+}
+.recommend-head{
+  text-align: center;
+    width: 110vh;
+}
+.dot-div{
+  width: 110vh;
+  margin-top: 200px;
+  text-align: center;
+}
+.contact-sub{
+  width: 100vh;
+}
+.email-deatils{
+  width: 80vh;
+}
+.footer{
+  width: 110vh;
+}
+}
